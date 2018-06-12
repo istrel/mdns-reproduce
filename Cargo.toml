@@ -1,0 +1,11 @@
+[package]
+name = "reproduce"
+version = "0.1.0"
+authors = ["Ivan Strelkov <istrel@lancastr.com>"]
+
+[dependencies]
+mdns-responder = { git = "https://github.com/glebpom/rust-mdns-responder.git", rev = "b09316ceb393d32cb8282f2bc49688db66c38ab0" }
+env_logger = { version = "0.4.3" }
+log = "0.3.8"
+time = "0.1"
+net = "*"
